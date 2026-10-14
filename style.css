@@ -1,0 +1,73 @@
+body {
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    background-image: url(ghgh.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    font-size: 32px;
+    margin-top: 40px;
+    text-align: center;
+    color: yellow;
+}
+
+fieldset {
+    width: 90%;
+    margin: 0 auto;
+    height: 120px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+legend {
+    text-align: left;
+    color: white;
+}
+
+#resultado {
+    font-family: Georgia, serif;
+    font-size: 16px;
+}
+
+p {
+    font-family: Georgia, serif;
+    font-style: italic;
+    margin-top: 25px;
+    text-align: center;
+    color: white;
+}
+
+button:hover {
+    background-color: white;
+}
+
+button {
+    padding: 6px 12px;
+    cursor: pointer;
+    background-color: #87CEEB;
+    transition: background-color 0.3s ease;
+    border-radius: 8px;
+    border: none;
+    
+}
+
+.nombre {
+    height: 20px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+label {
+    color: white;
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+}
