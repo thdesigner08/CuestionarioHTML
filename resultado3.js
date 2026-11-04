@@ -5,7 +5,7 @@ setTimeout(function(){
  if (puntos<3) {
     let jugadore = document.getElementById("jugadore");
     jugadore.play();
- } else if(4>=puntos && puntos <=7) {
+ } else if(puntos >= 4 && puntos <= 7) {
     let mushasho = document.getElementById("mushasho");
     mushasho.play();
  }  else if(puntos>7) {
